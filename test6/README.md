@@ -32,9 +32,9 @@
 - ### [“评定成绩”用例](./useCase/评定成绩.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/evaluationresults.html)
 - ### [“查看成绩”用例](./useCase/查看成绩.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/listscore.html)
 - ### [“修改密码”用例](./useCase/修改密码.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/changepassword.html)
-- ### [“修改用户信息”用例](./useCase/修改用户信息.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/changeinfo.html)
-- ### [“查看用户信息”用例](./useCase/查看用户信息.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/personinfo.html)
-- ### [“登出”用例](./useCase/登出.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/haslogin.html)
+- ### [“修改个人信息”用例](./useCase/修改个人信息.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/changeinfo.html)
+- ### [“查看个人信息”用例](./useCase/查看个人信息.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/personinfo.html)
+- ### [“退出”用例](./useCase/退出.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/haslogin.html)
 - ### [“登录”用例](./useCase/登录.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/login.html)
 
 ## 7. 参考文献

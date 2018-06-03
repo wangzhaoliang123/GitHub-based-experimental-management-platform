@@ -25,10 +25,10 @@
         {         
             "status": true,
             "info": null,    
-            "student_id": "201510315203", 
-            "github_username": "chinajuedui", 
-            "class": "软件(本)15-1", 
-            "name": "陈松华", 
+            "student_id": "201510414416", 
+            "github_username": "wangzhaoliang123", 
+            "class": "软件(本)15-4", 
+            "name": "王召亮", 
             "total": 6,
             "avgresult":90.5,       
             "data": [
@@ -37,7 +37,7 @@
                 "web_exists": true, 
                 "result": 91, 
                 "memo":"本实验做得好",
-                "update_date": "2018-04-02 13:48:01"
+                "update_date": "2018-06-02 19:48:01"
                 }, 
                 {
                 ...其他实验

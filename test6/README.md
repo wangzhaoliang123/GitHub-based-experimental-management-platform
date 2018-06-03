@@ -38,4 +38,4 @@
 - ### [“登录”用例](./useCase/登录.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/login.html)
 
 ## 7. 参考文献
-- 老师做的基于GitHub的实验管理平台参考：https://github.com/zwdbox/is_analysis/tree/master/test6
+- 老师的模板：https://github.com/zwdbox/is_analysis/tree/master/test6

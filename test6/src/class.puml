@@ -1,0 +1,56 @@
+@startuml
+title 基于GitHub的实验管理平台--类图
+class users #DDEEFF{
+    <b>user_id</b> （用户ID）
+    name （用户真实姓名）
+    github_username （用户GitHub账号）
+    update_date （用户GitHub账号修改日期）
+    password （用户密码）
+    disable （用户是否禁用）
+}
+class teachers #DDEEFF{
+    <b>teacher_id</b> （老师工号）
+    department （老师所属部门）
+}
+class students #DDEEFF{
+    <b>student_id</b> （学号）
+    class （班级）
+    result_sum（成绩汇总）
+    web_sum （网站正确与否汇总）
+    GitHub  （GitHub账号）
+}
+users <|- students
+users <|-- teachers
+users --|> login
+class login  #DDEEFF{
+    <b>username</b>  （用户名）
+    password  （密码）
+}
+class grades  #DDEEFF{
+    <b>student_id</b> （学号）
+    <b>test_id</b> （实验编号）
+    result （分数）
+    memo （评价）
+    update_date （评改日期）
+}
+
+class experiment  #DDEEFF{
+    <b>experiment_id</b> （实验编号）
+    title （实验名称）
+}
+class course #DDEEFF{
+    <b>course_id</b>  （课程号）
+    number  （课程数量）
+}
+class semester #DDEEFF{
+    <b>semester_id</b>  （学期号）
+
+}
+
+students "1" -- "n"  grades
+experiment "1" -- "n"  grades
+course "1" -- "n"  experiment
+semester "1" -- "n"  course
+
+
+@enduml

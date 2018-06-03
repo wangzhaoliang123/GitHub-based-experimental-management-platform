@@ -1,0 +1,26 @@
+ @startuml
+        skinparam sequenceParticipant underline
+        actor "：teacher" as User #black
+        note left of User #bbb
+            评定成绩
+            顺序图
+        end note
+        participant "：student" as A
+        participant "：grades" as B
+        participant "：test" as C
+        alt
+            User -[#red]> A:输入学号（主键）
+            activate User
+            activate A
+            activate B
+            A -[#red]> B:
+            B -[#red]> C:
+            deactivate User
+            deactivate B
+            C --[#red]>User:每个实验的成绩，评语的评定
+            User -[#red]>B:提交实验成绩
+        activate User
+        deactivate User
+        deactivate A
+        end
+@enduml

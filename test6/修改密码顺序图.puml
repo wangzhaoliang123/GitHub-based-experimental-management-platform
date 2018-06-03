@@ -1,0 +1,19 @@
+ @startuml
+        skinparam sequenceParticipant underline
+        actor "：teacher/student" as User #black
+        note left of User #bbb
+            修改密码
+            顺序图
+        end note
+        participant "：Login页面" as A
+        database 数据库存储
+            User -[#red]> A:用户输入用户名和密码，登录
+            activate User
+            activate A
+
+            A -[#red]>数据库存储 :修改密码：输入新密码（两次）
+            deactivate A
+            数据库存储 -[#red]>数据库存储 :提交，保存修改后的密码
+        activate User
+        deactivate User
+@enduml

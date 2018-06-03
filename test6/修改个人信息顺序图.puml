@@ -1,0 +1,19 @@
+ @startuml
+        skinparam sequenceParticipant underline
+        actor "：student" as User #black
+        note left of User #bbb
+            修改密码
+            顺序图
+        end note
+        participant "：学生列表页面" as A
+        database 数据库存储
+            User -[#red]> A:用户输入用户名和密码，登录
+            activate User
+            activate A
+
+            A -[#red]>数据库存储 :修改个人信息（GitHub账号）
+            deactivate A
+            数据库存储 -[#red]>数据库存储 :提交，保存修改后的GitHub账号
+        activate User
+        deactivate User
+@enduml

@@ -1,0 +1,28 @@
+ @startuml
+        autonumber
+        skinparam sequenceParticipant underline
+        actor "：用户" as User #black
+        note left of User #bbb
+            学生列表
+            顺序图
+        end note
+        participant "：student" as A
+        participant "：grades" as B
+        participant "：test" as C
+        alt 如果users是老师
+            User -[#red]> A:查看学生列表
+            activate User
+            activate A
+            activate B
+            A -[#red]> B: 老师登录
+            B -[#red]> C: 查看和评定成绩
+            deactivate User
+            deactivate B
+            C --[#red]>User:每个学生信息和实验的成绩
+        else 如果users是students，或者未登录
+             A --[#red]>User:显示每个学生信息
+        activate User
+        deactivate User
+        deactivate A
+        end
+@enduml

@@ -1,0 +1,20 @@
+ @startuml
+        skinparam sequenceParticipant underline
+        actor "：teacher/student" as User #black
+        note left of User #bbb
+            登录
+            顺序图
+        end note
+        participant "：Login页面" as A
+        participant "：学生列表页面" as B
+        database 数据库存储
+            User -[#red]> A:用户输入用户名和密码
+            activate User
+            activate A
+
+            A -[#red]>数据库存储 :提交到数据库，进行查找比对
+            deactivate A
+            数据库存储 -[#red]>B :用户名和密码均正确，登录成功
+        activate User
+        deactivate User
+@enduml

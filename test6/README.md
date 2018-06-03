@@ -15,7 +15,7 @@
 ## 2. 系统总体结构
 ![](./src/systemStruct.jpg '系统总体结构图')
 
-界面设计参见：https://github.com/wangzhaoliang123/is_analysis/blob/master/test6/UI/index.html
+界面设计参见：https://wangzhaoliang123.github.io/is_analysis/test6/ui/index.html
     
 ## 3. 用例图设计 [源码](./src/useCase.puml)
 ![](./src/useCase.png)

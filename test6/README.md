@@ -17,8 +17,8 @@
 
 界面设计参见：https://wangzhaoliang123.github.io/is_analysis/test6/ui/index.html
     
-## 3. 用例图设计 [源码](./src/UseCase.puml)
-![](./src/UseCase.png)
+## 3. 用例图设计 [源码](./src/useCase.puml)
+![](./src/useCase.png)
 
 ## 4. 类图设计 [源码](./src/class.puml)
 ![](./src/class.png)

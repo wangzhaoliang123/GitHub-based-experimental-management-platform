@@ -38,6 +38,4 @@
 - ### [“登录”用例](./useCase/登录.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/login.html)
 
 ## 7. 参考文献
-- 绘制方法参考[PlantUML标准](http://plantuml.com)
-- Markdown格式参考：https://www.jianshu.com/p/b03a8d7b1719
 - 老师做的基于GitHub的实验管理平台参考：https://github.com/zwdbox/is_analysis/tree/master/test6

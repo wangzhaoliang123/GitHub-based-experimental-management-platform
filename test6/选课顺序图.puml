@@ -1,0 +1,24 @@
+ @startuml
+        skinparam sequenceParticipant underline
+        actor "：student" as User #black
+        note left of User #bbb
+            选课
+            顺序图
+        end note
+        participant "：学生列表页面" as A
+        participant "：选课页面" as B
+        database 数据库存储
+            User -[#red]> A:用户输入用户名和密码，登录
+            activate User
+            activate A
+            activate B
+            A -[#red]>B :选择学期，进入选课
+            deactivate A
+            B -[#red]>数据库存储:选课完成，提交
+            deactivate B
+            activate 数据库存储
+            数据库存储 -[#red]>数据库存储 :选课数据上传到平台上
+            deactivate 数据库存储
+        activate User
+        deactivate User
+@enduml

@@ -29,6 +29,7 @@
 ## 6. 用例及界面详细设计
     
 - ### [“学生列表”用例](./useCase/学生列表.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/index.html)
+- ### [“选课”用例](./useCase/选课.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/selectcourse.html)
 - ### [“评定成绩”用例](./useCase/评定成绩.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/evaluationresults.html)
 - ### [“查看成绩”用例](./useCase/查看成绩.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/listscore.html)
 - ### [“修改密码”用例](./useCase/修改密码.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/ui/changepassword.html)

@@ -25,7 +25,7 @@
   border-width:0px;
   position:absolute;
   left:314px;
-  top:4px;
+  top:24px;
   width:224px;
   height:39px;
   font-size:16px;
@@ -63,7 +63,7 @@
   border-width:0px;
   position:absolute;
   left:638px;
-  top:4px;
+  top:24px;
   width:104px;
   height:32px;
   font-family:'Arial Negreta', 'Arial Normal', 'Arial';
@@ -84,7 +84,7 @@
   border-width:0px;
   position:absolute;
   left:17px;
-  top:126px;
+  top:146px;
   width:444px;
   height:156px;
 }
@@ -593,7 +593,7 @@
   border-width:0px;
   position:absolute;
   left:706px;
-  top:126px;
+  top:146px;
   width:300px;
   height:156px;
   font-size:18px;
@@ -612,7 +612,7 @@
   border-width:0px;
   position:absolute;
   left:17px;
-  top:333px;
+  top:353px;
   width:555px;
   height:156px;
 }
@@ -1248,7 +1248,7 @@
   border-width:0px;
   position:absolute;
   left:706px;
-  top:342px;
+  top:362px;
   width:300px;
   height:156px;
   font-size:18px;
@@ -1267,7 +1267,7 @@
   border-width:0px;
   position:absolute;
   left:17px;
-  top:545px;
+  top:565px;
   width:621px;
   height:150px;
 }
@@ -2399,7 +2399,7 @@
   border-width:0px;
   position:absolute;
   left:706px;
-  top:539px;
+  top:559px;
   width:300px;
   height:156px;
   font-size:18px;
@@ -2478,7 +2478,7 @@
   border-width:0px;
   position:absolute;
   left:638px;
-  top:618px;
+  top:638px;
   width:68px;
   height:1px;
 }
@@ -2555,7 +2555,7 @@
   border-width:0px;
   position:absolute;
   left:572px;
-  top:409px;
+  top:429px;
   width:134px;
   height:1px;
 }
@@ -2632,7 +2632,7 @@
   border-width:0px;
   position:absolute;
   left:461px;
-  top:202px;
+  top:222px;
   width:245px;
   height:1px;
 }
@@ -2650,16 +2650,16 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:220px;
-  height:57px;
+  width:203px;
+  height:34px;
 }
 #u101 {
   border-width:0px;
   position:absolute;
   left:17px;
-  top:49px;
-  width:220px;
-  height:57px;
+  top:69px;
+  width:203px;
+  height:34px;
   font-size:18px;
   text-align:left;
 }
@@ -2667,15 +2667,15 @@
   border-width:0px;
   position:absolute;
   left:2px;
-  top:18px;
-  width:216px;
+  top:6px;
+  width:199px;
   word-wrap:break-word;
 }
 #u102 {
   border-width:0px;
   position:absolute;
   left:420px;
-  top:67px;
+  top:87px;
   width:181px;
   height:22px;
 }
@@ -2714,7 +2714,7 @@
   border-width:0px;
   position:absolute;
   left:318px;
-  top:60px;
+  top:80px;
   width:92px;
   height:36px;
 }
@@ -2748,7 +2748,7 @@
   border-width:0px;
   position:absolute;
   left:845px;
-  top:11px;
+  top:31px;
   width:37px;
   height:20px;
   font-size:14px;

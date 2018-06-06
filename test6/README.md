@@ -25,8 +25,7 @@
 ## 5. 数据库设计 
 - ### [参见详情](./dataBaseDesign.md)
      
-## 6. 用例及界面详细设计
-    
+## 6. 用例及界面详细设计    
 - ### [“学生列表”用例](./useCase/学生列表.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/UI/index.html)
 - ### [“登录”用例](./useCase/登录.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/UI/login.html)
 - ### [“选择学期”用例](./useCase/选择学期.md),[界面](https://wangzhaoliang123.github.io/is_analysis/test6/UI/haslogin.html)
